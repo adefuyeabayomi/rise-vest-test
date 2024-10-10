@@ -1,0 +1,25 @@
+.logo-container img {
+  width: 70px;
+}
+.header-nav-container li {
+  display: inline-block;
+  padding: 0px 10px;
+  position: relative;
+  bottom: 3px;
+}
+.mobile-menu-container li {
+    list-style-type: none;
+}
+.active {
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+}
+
+.active-dot.active {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
