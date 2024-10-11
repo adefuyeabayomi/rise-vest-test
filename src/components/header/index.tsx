@@ -23,9 +23,9 @@ function Header(): React.JSX.Element {
   };
 
   return (
-    <header id="page-header" className="main-spacing-x border-debug">
+    <header id="page-header" className="main-spacing-x">
       <div className="container-fluid">
-        <div className="row align-items-center py-0 py-lg-2">
+        <div className="row align-items-center py-0 py-lg-3">
           <div className="w-max-content">
             <div className="logo-container">
               <img src={logo} />
@@ -140,7 +140,8 @@ function Header(): React.JSX.Element {
                     <motion.li className="" whileHover={{ y: -3 }}>
                       <Link
                         className={`text-none color-main ${isActive("") ? "active" : ""}`}
-                        to={"/"} onClick={toggleHamburger}
+                        to={"/"}
+                        onClick={toggleHamburger}
                       >
                         <h3 className="text-light py-2">Home</h3>
                       </Link>
@@ -148,7 +149,8 @@ function Header(): React.JSX.Element {
                     <motion.li whileHover={{ y: -3 }}>
                       <Link
                         className={`text-none color-main ${isActive("#products") ? "active" : ""}`}
-                        to={"/#products"} onClick={toggleHamburger}
+                        to={"/#products"}
+                        onClick={toggleHamburger}
                       >
                         <h3 className="text-light py-2">Products</h3>
                       </Link>
@@ -156,7 +158,8 @@ function Header(): React.JSX.Element {
                     <motion.li whileHover={{ y: -3 }}>
                       <Link
                         className={`text-none color-main ${isActive("#investment-club") ? "active" : ""}`}
-                        to={"/#investment-club"} onClick={toggleHamburger}
+                        to={"/#investment-club"}
+                        onClick={toggleHamburger}
                       >
                         <h3 className="text-light py-2">Investment Club</h3>
                       </Link>
@@ -164,7 +167,8 @@ function Header(): React.JSX.Element {
                     <motion.li whileHover={{ y: -3 }}>
                       <Link
                         className={`text-none color-main ${isActive("#blog") ? "active" : ""}`}
-                        to={"/#blog"} onClick={toggleHamburger}
+                        to={"/#blog"}
+                        onClick={toggleHamburger}
                       >
                         <h3 className="text-light py-2">Blog</h3>
                       </Link>
@@ -172,7 +176,8 @@ function Header(): React.JSX.Element {
                     <motion.li whileHover={{ y: -3 }}>
                       <Link
                         className={`text-none color-main ${isActive("#about-us") ? "active" : ""}`}
-                        to={"/#about-us"} onClick={toggleHamburger}
+                        to={"/#about-us"}
+                        onClick={toggleHamburger}
                       >
                         <h3 className="text-light py-2">About Us</h3>
                       </Link>
@@ -180,7 +185,8 @@ function Header(): React.JSX.Element {
                     <motion.li whileHover={{ y: -3 }}>
                       <Link
                         className={`text-none color-main ${isActive("#FAQ") ? "active" : ""}`}
-                        to={"/#FAQ"} onClick={toggleHamburger}
+                        to={"/#FAQ"}
+                        onClick={toggleHamburger}
                       >
                         <h3 className="text-light py-2">FAQs</h3>
                       </Link>

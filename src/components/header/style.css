@@ -1,3 +1,10 @@
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+}
 .logo-container img {
   width: 70px;
 }
@@ -8,7 +15,7 @@
   bottom: 3px;
 }
 .mobile-menu-container li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .active {
   font-weight: bold;

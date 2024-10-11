@@ -1,0 +1,41 @@
+/*Hero Section*/
+.store-btn {
+  border: 0px solid;
+  background-color: transparent;
+}
+.store-btn-img {
+  width: 49%;
+  max-width: 150px;
+}
+.store-btn-img:nth-child(1) {
+  margin-right: 1%;
+}
+.store-btn-img:nth-child(2) {
+  margin-left: 1%;
+}
+
+.hero-img-container img {
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Partner Section */
+.partner-container-main {
+  border: 1px solid rgb(240 240 240);
+  border-left: 0px solid;
+  border-right: 0px solid;
+}
+
+.partner-container-main img {
+  width: 100%;
+  max-width: 350px;
+  margin: 0px auto;
+  display: block;
+}
+
+/*How is Works Section*/
+.how-it-works-img {
+    width: 100%;
+    max-width: 350px;
+}
+

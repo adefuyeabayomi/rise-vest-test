@@ -25,8 +25,7 @@
 
 @font-face {
   font-family: "DM Sans";
-  src: url("./assets/fonts/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf")
-    format("truetype");
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Regular.ttf");
 }
 
 /* GENERAL STYLING */
@@ -103,42 +102,161 @@ h6 {
 }
 h1 {
   font-size: 47.78px;
+  line-height: 140%;
 }
 
 h2 {
   font-size: 39.82px;
+  line-height: 145%;
 }
 
 h3 {
   font-size: 33.18px;
+  line-height: 150%;
 }
 
 h4 {
   font-size: 27.65px;
+  line-height: 155%;
 }
 
 h5 {
   font-size: 23.04px;
+  line-height: 160%;
+}
+
+h6 {
+    font-size: 20.05px;
+    line-height: 160%;
 }
 
 p {
   font-size: 16px;
+  line-height: 180%;
 }
 
 small {
   font-size: 13.33px;
+  line-height: 185%;
 }
 
 .mini {
   font-size: 11.11px;
+  line-height: 185%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Responsive Text Alignment for Small Devices (phones) */
+@media (min-width: 576px) {
+  .text-sm-center {
+    text-align: center;
+  }
+
+  .text-sm-left {
+    text-align: left;
+  }
+
+  .text-sm-right {
+    text-align: right;
+  }
+
+  .text-sm-justify {
+    text-align: justify;
+  }
+  .left-sm {
+    margin: 0px 0px;
+  }
+  .center-sm {
+    margin: 0px auto !important;
+  }
+}
+
+/* Responsive Text Alignment for Medium Devices (tablets) */
+@media (min-width: 768px) {
+  .text-md-center {
+    text-align: center;
+  }
+
+  .text-md-left {
+    text-align: left;
+  }
+
+  .text-md-right {
+    text-align: right;
+  }
+
+  .text-md-justify {
+    text-align: justify;
+  }
+
+  .left-md {
+    margin: 0px 0px;
+  }
+}
+
+/* Responsive Text Alignment for Large Devices (desktops) */
+@media (min-width: 992px) {
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+
+  .text-lg-justify {
+    text-align: justify;
+  }
+}
+
+/* Responsive Text Alignment for Extra Large Devices (large desktops) */
+@media (min-width: 1100px) {
+  .text-xl-center {
+    text-align: center;
+  }
+
+  .text-xl-left {
+    text-align: left;
+  }
+
+  .text-xl-right {
+    text-align: right;
+  }
+
+  .text-xl-justify {
+    text-align: justify;
+  }
 }
 
 .color-main {
-  color: #07969e;
+  color: #00a5ae;
 }
 
 .color-main-bg {
   background-color: #07969e;
+}
+
+.text-dark {
+  color: #4a5050;
 }
 
 /* width, spacing utilities and modifications */
@@ -153,7 +271,8 @@ small {
 
 .container-fluid,
 .row,
-.w-max-content {
+.w-max-content,
+.row > * {
   margin: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -201,4 +320,13 @@ small {
 
 .border-debug {
   border: 1px solid gray;
+}
+
+.offset-header {
+  margin-top: 50px;
+}
+
+.center {
+  margin: 0px auto;
+  display: block;
 }

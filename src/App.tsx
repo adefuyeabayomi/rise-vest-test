@@ -10,6 +10,7 @@ function App() {
     <>
       <Router>
         <Header />
+        <div className="offset-header" />
         <Routes>
           <Route path="/" Component={Home} />
         </Routes>

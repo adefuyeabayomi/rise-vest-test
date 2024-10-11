@@ -1,13 +1,16 @@
 import React from "react";
 
 import "./style.css";
+import Hero from "./Hero";
+import Partners from "./Partners";
+import HowItWorks from "./HowItWorks";
 
 function Home(): React.JSX.Element {
   return (
     <main id="homepage">
-      <div>
-        <h1>Home Page</h1>
-      </div>
+      <Hero />
+      <Partners />
+      <HowItWorks />
     </main>
   );
 }
