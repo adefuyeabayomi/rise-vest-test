@@ -9,6 +9,7 @@ import SavePrompt from "./SavePrompt";
 import Regulations from "./Regulation";
 import OurCustomers from "./OurCustomers";
 import Community from "./Community";
+import DownloadAppPromptSection from "./DownloadApp";
 
 function Home(): React.JSX.Element {
   return (
@@ -21,6 +22,8 @@ function Home(): React.JSX.Element {
       <Regulations />
       <OurCustomers />
       <Community />
+      <DownloadAppPromptSection />
+      <div className="py-5" />
     </main>
   );
 }

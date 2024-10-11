@@ -173,7 +173,7 @@ function OurCustomers(): React.JSX.Element {
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
-                  <img src={profileImg} className="review-profile-image" />
+                    <img src={profileImg} className="review-profile-image" />
                   </div>
                 </div>
                 <div className="w-max-content">

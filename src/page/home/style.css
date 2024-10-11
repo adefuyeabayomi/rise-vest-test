@@ -91,8 +91,8 @@
 
 /*Review SEction*/
 .review-container {
-    border: 1px solid rgb(243, 243, 243);
-    border-radius: 10px;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 10px;
 }
 .review-profile-image {
   width: 50px;
@@ -100,14 +100,30 @@
   border-radius: 100px;
 }
 .community-btn {
-    color: #333737;
-    border: 1px solid #92bcbc;
-    border-radius: 5px;
-    background-color: #A0DDE2;
-    padding: 12px 55px;
+  color: #333737;
+  border: 1px solid #92bcbc;
+  border-radius: 5px;
+  background-color: #a0dde2;
+  padding: 12px 55px;
 }
 
-.community-img{
+.community-img {
+  width: 100%;
+  max-width: 290px;
+}
+
+.download-app-prompt-container {
+  background-color: #a1e5e5;
+  border-radius: 20px;
+}
+
+.d-prompt-text {
+  color: #006065;
+}
+
+.download-app-img {
     width: 100%;
     max-width: 290px;
+    position: relative;
+    top: 5px;
   }

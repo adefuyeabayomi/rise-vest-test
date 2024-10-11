@@ -24,10 +24,10 @@ function Hero(): React.JSX.Element {
                 We put your money in high quality assets that help you build
                 wealth and achieve your financial goals.
               </p>
-              <div className="container-fluid">
-                <div className="row justify-content-center justify-content-lg-start">
-                  <img className="store-btn-img" src={ios} />
-                  <img className="store-btn-img" src={playStore} />
+              <div className="container-fluid no-space">
+                <div className="row justify-content-center justify-content-lg-start no-space">
+                  <img className="store-btn-img no-space" src={ios} />
+                  <img className="store-btn-img no-space" src={playStore} />
                 </div>
               </div>
             </div>
