@@ -6,6 +6,7 @@ import Partners from "./Partners";
 import HowItWorks from "./HowItWorks";
 import AssetClasses from "./AssetClasses";
 import SavePrompt from "./SavePrompt";
+import Regulations from "./Regulation";
 
 function Home(): React.JSX.Element {
   return (
@@ -15,6 +16,7 @@ function Home(): React.JSX.Element {
       <HowItWorks />
       <AssetClasses />
       <SavePrompt />
+      <Regulations />
     </main>
   );
 }

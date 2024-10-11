@@ -252,7 +252,7 @@ small {
 }
 
 .color-secondary {
-    color: #7237ff;
+  color: #7237ff;
 }
 
 .color-main-bg {
@@ -272,7 +272,6 @@ small {
 .w-max-content {
   width: max-content;
 }
-
 
 .main-spacing-x {
   padding-left: 15px;
@@ -326,9 +325,9 @@ small {
   margin: 0px auto;
   display: block;
 }
-.no-space{
-    margin: 0px;
-    padding: 0px;
+.no-space {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* SavePrompt */
