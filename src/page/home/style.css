@@ -38,3 +38,33 @@
   width: 100%;
   max-width: 350px;
 }
+
+
+/* Assets Classes*/
+.assets-container {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 10px;
+}
+.a-header {
+    border-radius: 10px 10px 0px 0px;
+}
+.a-header.stock {
+    background-color: #ffded1;
+}
+.a-header.fixed {
+    background-color: #b5e5e5;
+}
+.a-header.realestate {
+    background-color: #e2d5ff;
+}
+.a-header img {
+    position: relative;
+    top: 40px;
+    border: 13px solid white;
+    border-radius: 100px;
+}
+.gray-text-light {
+    color: gray
+}

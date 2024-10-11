@@ -269,14 +269,6 @@ small {
   width: max-content;
 }
 
-.container-fluid,
-.row,
-.w-max-content,
-.row > * {
-  margin: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
 
 .main-spacing-x {
   padding-left: 15px;
