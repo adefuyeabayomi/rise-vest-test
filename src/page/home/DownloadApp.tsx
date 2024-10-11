@@ -11,11 +11,12 @@ function DownloadAppPromptSection(): React.JSX.Element {
       id="download-app-prompt-section"
       className="download-app-prompt-container-main main-spacing-x"
     >
+      <div className="py-4" />
       <div className="download-app-prompt-container px-4">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-12 col-md-6">
-              <div>
+              <div className="py-4 text-center text-md-left">
                 <p className="d-prompt-text text-semibold">
                   Download The Rise App
                 </p>
@@ -34,7 +35,7 @@ function DownloadAppPromptSection(): React.JSX.Element {
               </div>
             </div>
             <div className="col-12 col-md-6">
-              <img src={downloadAppImg} className="download-app-img" />
+              <img src={downloadAppImg} className="download-app-img center" />
             </div>
           </div>
         </div>
