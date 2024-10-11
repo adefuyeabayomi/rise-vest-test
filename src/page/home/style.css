@@ -16,7 +16,13 @@
 
 .hero-container-main {
     background-image: url('../../assets/images/hero-bg.png');
-    background-size: cover;
+    background-size: contain;
+}
+
+@media (min-width: 550px) {
+    .hero-container-main {
+        background-size: cover;
+    }
 }
 
 .hero-img-container img {
