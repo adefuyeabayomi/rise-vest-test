@@ -29,13 +29,13 @@ function HowItWorks(): React.JSX.Element {
               <div className="py-2" />
               <div className="container-fluid">
                 <div className="row justify-content-center justify-content-md-start align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <h6 className="color-main text-regular">
                       Start Investing Now
                     </h6>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>
@@ -64,13 +64,13 @@ function HowItWorks(): React.JSX.Element {
               <div className="py-2" />
               <div className="container-fluid">
                 <div className="row justify-content-center justify-content-md-start align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <h6 className="color-main text-regular">
                       Start Investing Now
                     </h6>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>
@@ -97,13 +97,13 @@ function HowItWorks(): React.JSX.Element {
               <div className="py-2" />
               <div className="container-fluid">
                 <div className="row justify-content-center justify-content-md-start align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <h6 className="color-main text-regular">
                       Start Investing Now
                     </h6>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>
@@ -133,13 +133,13 @@ function HowItWorks(): React.JSX.Element {
               <div className="py-2" />
               <div className="container-fluid">
                 <div className="row justify-content-center justify-content-md-start align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <h6 className="color-main text-regular">
                       Start Investing Now
                     </h6>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>

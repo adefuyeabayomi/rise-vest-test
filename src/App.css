@@ -322,3 +322,7 @@ small {
   margin: 0px auto;
   display: block;
 }
+.no-space{
+    margin: 0px;
+    padding: 0px;
+}

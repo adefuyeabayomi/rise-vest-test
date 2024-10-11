@@ -28,13 +28,13 @@ function AssetClasses(): React.JSX.Element {
               <div className="py-3" />
               <div className="container-fluid">
                 <div className="row justify-content-center align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <p className="color-main text-semibold">
                       Learn How Stocks Works
                     </p>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>
@@ -58,13 +58,13 @@ function AssetClasses(): React.JSX.Element {
               <div className="py-3" />
               <div className="container-fluid">
                 <div className="row justify-content-center align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <p className="color-main text-semibold">
                       Learn How Real Estate Works
                     </p>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>
@@ -89,13 +89,13 @@ function AssetClasses(): React.JSX.Element {
               <div className="py-3" />
               <div className="container-fluid">
                 <div className="row justify-content-center align-items-center">
-                  <div className="w-max-content">
+                  <div className="w-max-content no-space">
                     <p className="color-main text-semibold">
                       Learn How Fixed Income Works
                     </p>
                   </div>
-                  <div className="p-1 w-max-content" />
-                  <div className="w-max-content">
+                  <div className="p-1 w-max-content no-space" />
+                  <div className="w-max-content no-space">
                     <img src={arrowRight} />
                   </div>
                 </div>
