@@ -8,6 +8,7 @@ import AssetClasses from "./AssetClasses";
 import SavePrompt from "./SavePrompt";
 import Regulations from "./Regulation";
 import OurCustomers from "./OurCustomers";
+import Community from "./Community";
 
 function Home(): React.JSX.Element {
   return (
@@ -19,6 +20,7 @@ function Home(): React.JSX.Element {
       <SavePrompt />
       <Regulations />
       <OurCustomers />
+      <Community />
     </main>
   );
 }

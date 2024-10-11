@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import profileImg from "../../assets/images/profile-img.jpeg";
+import profileImg from "../../assets/images/profile-img.png";
 
 import "./style.css";
 
@@ -17,21 +17,21 @@ function OurCustomers(): React.JSX.Element {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 560 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 560, min: 0 },
       items: 1,
     },
   };
   return (
     <section
       id="our-customers-section"
-      className="our-customers-container-main main-spacing-x text-main text-center"
+      className="our-customers-container-main main-spacing-x text-main"
     >
       <div className="py-5" />
-      <div>
+      <div className=" text-center">
         <h3 className="color-main">From The People Who Use Rise</h3>
         <div className="py-1" />
         <p className="font-family-tomato-grotesk col-11 col-sm-9 col-md-7 center">
@@ -49,7 +49,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
@@ -69,7 +69,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
@@ -89,7 +89,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
@@ -109,7 +109,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
@@ -129,7 +129,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
@@ -149,7 +149,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
@@ -169,7 +169,7 @@ function OurCustomers(): React.JSX.Element {
               people like Rise who are skilled and knowledgeable.
             </p>
             <div className="py-1" />
-            <div className="container-fluid">
+            <div className="container-fluid no-space">
               <div className="row align-items-center no-space">
                 <div className="w-max-content no-space">
                   <div>
