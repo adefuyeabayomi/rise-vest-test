@@ -16,7 +16,8 @@
 
 .hero-container-main {
     background-image: url('../../assets/images/hero-bg.png');
-    background-size: contain;
+    background-size: 200%;
+    background-position: center;
 }
 
 @media (min-width: 550px) {
