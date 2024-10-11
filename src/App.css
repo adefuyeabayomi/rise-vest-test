@@ -251,6 +251,10 @@ small {
   color: #00a5ae;
 }
 
+.color-secondary {
+    color: #7237ff;
+}
+
 .color-main-bg {
   background-color: #07969e;
 }
@@ -326,3 +330,5 @@ small {
     margin: 0px;
     padding: 0px;
 }
+
+/* SavePrompt */

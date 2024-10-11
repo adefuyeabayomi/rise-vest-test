@@ -68,3 +68,18 @@
 .gray-text-light {
     color: gray
 }
+
+/*Save Prompt*/
+.saving-app-mockup-container img {
+    max-width: 290px;
+}
+.save-button {
+    color: white;
+    border: 1px solid #5a8386;
+    border-radius: 5px;
+    background-color: #007d84;
+    padding: 14px 44px;
+}
+.save-prompt-texts{
+    max-width: 400px;
+}
