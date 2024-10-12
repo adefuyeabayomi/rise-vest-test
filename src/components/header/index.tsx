@@ -23,7 +23,8 @@ function Header(): React.JSX.Element {
   };
 
   return (
-    <header id="page-header" className="main-spacing-x">
+    <header id="page-header">
+      <div className="main-spacing-x">
       <div className="container-fluid">
         <div className="row align-items-center py-0 py-lg-3">
           <div className="w-max-content">
@@ -198,6 +199,8 @@ function Header(): React.JSX.Element {
             </Overlay>
           </div>
         </div>
+      </div>
+
       </div>
     </header>
   );

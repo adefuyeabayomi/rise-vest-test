@@ -1,0 +1,13 @@
+.footer-logo {
+  width: 60px;
+}
+
+footer li {
+    list-style-type: none;
+    line-height: 270%;
+}
+
+.footer-arrow {
+  transform: rotate(-45deg);
+  display: inline-block;
+}
